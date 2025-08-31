@@ -49,6 +49,8 @@ export default async function* aiCompletion(prompt: string) {
         // LM Studio streams OpenAI-like chunks
         const json = JSON.parse(data);
 
+        console.log(json);
+
         // Try typical OpenAI shapes for chat streaming
         const delta =
           json.choices?.[0]?.delta?.content ??
