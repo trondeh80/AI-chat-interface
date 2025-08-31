@@ -34,6 +34,9 @@ npm run dev
 
 Your application will be available at `http://localhost:5173`.
 
+## Usage locally with LM Studio
+In "developer" tab in LM Studio ensure that "enable CORS" is active!
+
 ## Building for Production
 
 Create a production build:
