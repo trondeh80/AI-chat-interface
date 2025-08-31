@@ -1,13 +1,13 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Chat } from "../chat/Chat";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Gnist KI chat" },
+    { name: "description", content: "Chat interface for gnist KI chat" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <Chat />;
 }
